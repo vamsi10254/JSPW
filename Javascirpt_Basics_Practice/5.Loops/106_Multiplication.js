@@ -4,5 +4,5 @@ function Multi(n) {
     console.log(n + " x " + i + " = " + result);
   }
 }
-(Multi(5));
+(Multi(9));
 
