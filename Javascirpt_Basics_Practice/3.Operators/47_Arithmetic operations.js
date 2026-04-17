@@ -1,7 +1,7 @@
 // Arithmetic operations
 
 let a = 10;
-let b = 5;
+let b = 2;
 
 console.log("Add:", a + b);
 console.log("Subtract:", a - b);
