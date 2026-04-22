@@ -3,11 +3,9 @@ let n = 5;
 for (let i = 1; i <= n; i++) {
   let row = "";
 
-  for (let j = 1; j <= n; j++) {
-    row = row + "*";
-// row += "*"; - Cleaner string building:
+  for (let j = 1; j <= i; j++) {
+    row += "*"; //- Cleaner string building:
   }
 
   console.log(row);
 }
-
