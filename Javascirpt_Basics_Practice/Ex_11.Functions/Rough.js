@@ -1,10 +1,7 @@
 // test
-console.log("Hi Sir");
-console.log("Hi Sir");
-console.log("Hi Sir");
 
-function greet(num)
-{
-    console.log(num * num);
+function hi(){
+    for(let i=1; i<=3 ;i++)
+    console.log("Hi Sachin , How are you");
 }
-greet(3);
+hi()
